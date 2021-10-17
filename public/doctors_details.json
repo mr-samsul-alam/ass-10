@@ -1,0 +1,84 @@
+[
+    {
+        "_id":"0",
+        "image":"https://www.hdclbd.com/Images/uploads/doctors-photo/dr_photo_2020217115055_dr_shahid_hossain.jpg",
+        "name": "Dr. Khondker Shaheed Hussain",
+        "subject":"Cardiologist",
+        "degree": "MBBS, MD (Cardiology)",
+        "Joining-Date": ""  
+    },  
+    {
+        "_id":"1",
+        "image":"https://www.hdclbd.com/Images/uploads/doctors-photo/dr_photo_20191029223619_dr_Md_golam_morshed.jpg",
+        "name": "Dr. Md. Golam Morshed",
+        "subject":"Cardiologist",
+        "degree": "MBBS, FCPS, MRCP, MACP",
+        "Joining-Date": ""  
+    },  
+    {
+        "_id":"2",
+        "image":"https://www.hdclbd.com/Images/uploads/doctors-photo/dr_photo_2020217114944_dr_abdur_razzak.jpg",
+        "name": "Dr. Md. Abdur Razzak",
+        "subject":"ENT",
+        "degree": "MBBS, FCPS (ENT)",
+        "Joining-Date": ""  
+    },  
+    {
+        "_id":"3",
+        "image":"https://www.hdclbd.com/Images/uploads/doctors-photo/dr_photo_20191029223916_dr_mohammad_ali.jpg",
+        "name": "Dr. Mohammad Ali",
+        "subject":"Hematologist",
+        "degree": "MBBS, FCPS (Hematology)",
+        "Joining-Date": ""  
+    },  
+    {
+        "_id":"4",
+        "image":"https://www.hdclbd.com/Images/uploads/doctors-photo/dr_photo_20191029223939_dr_faiz_ahmad_khondaker.jpg",
+        "name": "Dr. Faiz Ahmad Khondaker",
+        "subject":"Hematology",
+        "degree": "MBBS, FCPS, MD (Hepatology)",
+        "Joining-Date": ""  
+    },  
+    {
+        "_id":"5",
+        "image":"https://www.hdclbd.com/Images/uploads/doctors-photo/dr_photo_20191029224151_dr_abul_hosain.jpg",
+        "name": "Dr. Md. Abul Hossain",
+        "subject":"Urology",
+        "degree": "MBBS, MS (Urology)",
+        "Joining-Date": ""  
+    },
+    {
+        "_id":"6",
+        "image":"https://www.hdclbd.com/Images/uploads/doctors-photo/dr_photo_2019102922402_dr_Imran_sarker.jpg",
+        "name": "Dr. Imran Sarker",
+        "subject":"Neurology Medicine",
+        "degree": "MBBS, BCS, MCPS, MD (Neurology)",
+        "Joining-Date": ""  
+    },  
+    {
+        "_id":"7",
+        "image":"https://www.hdclbd.com/Images/uploads/doctors-photo/dr_photo_20191029224043_dr_AKM_zahir_uddin.jpg",
+        "name": "Dr. A K M Zahir Uddin",
+        "subject":"Orthopedics",
+        "degree": "MBBS, MS (Ortho)",
+        "Joining-Date": ""  
+    },  
+    {
+        "_id":"8",
+        "image":"https://www.hdclbd.com/Images/uploads/doctors-photo/dr_photo_20191029224127_dr_md_nur_alam.jpg",
+        "name": "Dr. Md. Nur Alam",
+        "subject":"Orthopedics",
+        "degree": "MBBS, MS (Ortho), (UA, AO Trauma)",
+        "Joining-Date": ""  
+    },  
+    {
+        "_id":"9",
+        "image":"https://www.hdclbd.com/Images/uploads/doctors-photo/dr_photo_20191029224151_dr_abul_hosain.jpg",
+        "name": "Dr. Md. Abul Hossain",
+        "subject":"Urology",
+        "degree": "MBBS, MS (Urology)",
+        "Joining-Date": ""  
+    }
+ 
+]  
+
