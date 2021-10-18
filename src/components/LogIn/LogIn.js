@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
+import { useHistory, useLocation } from 'react-router';
 import UseAuth from '../../Hooks/UseAuth';
 // import "./LogIn.css"
 
 const LogIn = () => {
-    const { handleGoogleSignIn, user, registerByEmailPass, logInEmailPassword, logOut } =  UseAuth()
+    const { handleGoogleSignIn, user, registerByEmailPass, logInEmailPassword, logOut } = UseAuth()
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
+
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home';
+
     const handleEmail = (e) => {
         setEmail(e.target.value);
     }
@@ -18,6 +24,13 @@ const LogIn = () => {
     const handleLogIn = () => {
         logInEmailPassword(email, password)
     }
+    const googleSignIn=()=>{
+        handleGoogleSignIn()
+        .then((result) => {
+            history.push(redirect_uri); 
+          })
+        
+    }
 
     return (
         <div className="mt-5">
@@ -27,10 +40,10 @@ const LogIn = () => {
             <input className="mt-2" type="password" onChange={handlePass} />
             <br />
             <button onClick={handleLogIn} className=" mt-5">
-                 log in</button> <br />
+                log in</button> <br />
             <button onClick={handleRegister} className=" mt-5">
                 Register</button> <br />
-            <button onClick={handleGoogleSignIn} className=" mt-5">
+            <button onClick={googleSignIn} className=" mt-5">
                 Sign in With Google
             </button> <br />
             <button onClick={logOut} className=" mt-5">

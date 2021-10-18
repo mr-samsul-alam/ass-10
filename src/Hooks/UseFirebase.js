@@ -8,15 +8,9 @@ const UseFirebase = () => {
   const [user, setUser] = useState({})
   const [error, setError] = useState("")
   const auth = getAuth();
-  const handleGoogleSignIn = () => {
-    const GoogleProvider = new GoogleAuthProvider();
-    signInWithPopup(auth, GoogleProvider)
-      .then((result) => {
-        setUser(result.user);
-        console.log(result.user);
-      }).catch((error) => {
-        setError(error.message);
-      })
+  const GoogleProvider = new GoogleAuthProvider();
+  const handleGoogleSignIn = () => { 
+    return signInWithPopup(auth, GoogleProvider) 
   }
   const  registerByEmailPass = (email, password) => {
     createUserWithEmailAndPassword(auth, email, password)

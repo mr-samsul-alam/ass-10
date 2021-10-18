@@ -2,14 +2,14 @@ import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import UseAuth from '../../Hooks/UseAuth';
-
+ 
 const Header = () => {
     const { user,logOut } = UseAuth()
     return (
         <>
-            <Navbar sticky="top" bg="dark" variant="dark" collapseOnSelect expand="lg">
+            <Navbar sticky="top" bg="warning" variant="dark" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand as={Link} to="/">Royal Diagnostic</Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/"><img src="/gggsew.jpg" alt="" width="50px" /></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
