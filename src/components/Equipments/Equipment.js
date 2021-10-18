@@ -5,9 +5,8 @@ const Equipment = (props) => {
     return (
         <div>
             {
-                _id %2 === 0 ? <div className="card mb-3" style={{ "max-width": "100%" }}>
-                    <div className="row g-0">
-
+                _id %2 === 0 ? <div className="card mb-3" style={{ "maxWidth": "100%" }}>
+                    <div className="row g-0"> 
                         <div className="col-md-8 ">
                             <div className="card-body">
                                 <h3 className="card-title">{name}</h3>
@@ -23,10 +22,10 @@ const Equipment = (props) => {
                     :
                     <div className="card mb-3" style={{ "max-width": "100%" }}>
                         <div className="row g-0">
-                            <div className="col-md-4 order-sm-last">
+                            <div className="col-md-4 ">
                                 <img src={picture} className="img-fluid rounded-start p-3" alt="..." />
                             </div>
-                            <div className="col-md-8 order-sm-first">
+                            <div className="col-md-8 ">
                                 <div className="card-body">
                                     <h3 className="card-title">{name}</h3>
                                     <p className="card-text">{description}</p>
