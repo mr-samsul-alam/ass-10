@@ -3,7 +3,7 @@ import { Button, Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 
 const ServicesCard = (props) => {
-    const {id, title, img, description,price } = props.doctor 
+    const {id, title, img, description,price } = props.service 
     const history =useHistory()
     const handleCardDetails =(id)=>{
         console.log(id);

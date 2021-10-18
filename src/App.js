@@ -13,11 +13,12 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import LogIn from './components/LogIn/LogIn';
+import  Signup from './components/Signup/Signup';
 import AuthProvider from './components/Context/AuthProvider';
 import SingleServices from './components/SingleService/SingleServices';
 import Home from './components/Home/Home/Home';
 import PrivateRoute from './PrivaeRoute/PrivateRoute';
+import LogIn from './components/LogIn/LogIn';
 
 
 function App() {
@@ -45,7 +46,10 @@ function App() {
             <Route exact path="/about">
               <About></About>
             </Route>
-            <Route exact path="/logIn">
+            <Route exact path="/signup">
+              < Signup></ Signup>
+            </Route>
+            <Route exact path="/login">
               <LogIn></LogIn>
             </Route>
             <Route exact path="*">

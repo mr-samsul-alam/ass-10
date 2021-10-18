@@ -18,7 +18,7 @@ const UseFirebase = () => {
         setUser(result.user);
       })
       .catch((error) => {
-        setError(error.message);
+        setError(error.code);
       });
   }
   const  logInEmailPassword = (email, password) => {
@@ -27,7 +27,7 @@ const UseFirebase = () => {
         setUser(result.user);
       })
       .catch((error) => {
-        setError(error.message);
+        setError(error.code);
       });
   }
   const logOut = () => {
