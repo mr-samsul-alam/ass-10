@@ -10,12 +10,11 @@ const DemoServicesCard = (props) => {
     }
     return (
         <div><Col>
-            <Card className="w-100">
-                <Card.Img variant="top" src={ img} className="w-100 mx-auto pt-2" />
+            <Card  >
+                <Card.Img variant="top" src={ img} className="w-100 mx-auto p-2" height="300px" />
                 <Card.Body>
                     <Card.Title>{ title}</Card.Title>
-                    <Card.Text>{ price}</Card.Text>
-                    <Card.Text>{ description}</Card.Text>
+                     
                 </Card.Body>
                 <Button variant="primary" onClick={() => handleCardDetails( id)}>See Details
                 </Button>

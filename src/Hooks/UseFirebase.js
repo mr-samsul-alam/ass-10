@@ -7,6 +7,7 @@ initializeAuthentication()
 const UseFirebase = () => {
   const [user, setUser] = useState({})
   const [error, setError] = useState("")
+  const [loading, setLoading] = useState(true)
   const auth = getAuth();
   const GoogleProvider = new GoogleAuthProvider();
   const handleGoogleSignIn = () => { 
@@ -40,7 +41,7 @@ const UseFirebase = () => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
         setUser(user);
-
+        setLoading(false) 
       }
     })
   },  )

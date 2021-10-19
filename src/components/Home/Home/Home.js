@@ -1,5 +1,6 @@
 import React from 'react';
 import {  Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import DemoServices from '../DemoServices/DemoServices';
 import Testimonials from '../Testimonial/Testimonial';
 
@@ -46,7 +47,9 @@ const Home = () => {
                     </Carousel.Item>
                 </Carousel>
             </div>
+            <h1>Our SerVices</h1>
             <DemoServices></DemoServices>
+             <Link  to="/services"><button className="btn-primary m-3 p-1"> Services </button></Link>
             <Testimonials></Testimonials>
             
         </div>
