@@ -6,7 +6,7 @@ const AboutCard = (props) => {
     return (
         <div>
             <Col>
-                <Card className="w-75">
+                <Card className="w-100 card-hover"  >
                     <Card.Img variant="top" src={image}  className="w-50 mx-auto" />
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>

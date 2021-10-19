@@ -6,7 +6,7 @@ const DemoServices = () => {
     const { services } = ServicesApi() 
     return (
         <div >
-            <Row xs={1} md={3}>
+            <Row xs={1} md={3} lg={3}>
                 {
                     services.slice(0, 6).map((service)=> <DemoServicesCard key={service.id} service={service}></DemoServicesCard>)
                 }

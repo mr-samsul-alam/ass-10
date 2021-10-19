@@ -11,6 +11,7 @@ const Equipments = () => {
     }, [])
     return (
         <div className="container">
+            <h1 className="fw-bolder p-3">Our Equipment</h1>
             <div className="founder-container mt-4">
                 <div className="row">
                     {

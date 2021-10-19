@@ -17,7 +17,7 @@ const Header = () => {
                         <Nav.Link as={Link} to="/equipment"> Instruments</Nav.Link>
                         <Nav.Link as={Link} to="/about"> About</Nav.Link>
                         {
-                            user.email ? <div><img src={user.photoURL} className="rounded-circle" width="50px" alt="" />  <Button onClick={logOut} className="text-white">Log Out</Button></div> : <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                            user.email ? <div><img src={user.photoURL} className="rounded-circle" width="50px" alt="" /> <Button onClick={logOut} className="text-white">Log Out</Button></div> : <Nav.Link as={Link} to="/login">Login</Nav.Link>
                         }
 
 

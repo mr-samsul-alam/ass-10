@@ -9,15 +9,15 @@ const DemoServicesCard = (props) => {
         history.push(`/services/${id}`)
     }
     return (
-        <div><Col>
-            <Card  >
-                <Card.Img variant="top" src={img} className="w-100 mx-auto p-2" height="300px" />
+        <div><Col className="p-2" >
+            <Card className=" card-hover">
+                <Card.Img variant="top" src={img} className="  mx-auto p-2" height="300px" />
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
-
+                    <Button variant="primary" onClick={() => handleCardDetails(id)}>See Details
+                    </Button>
                 </Card.Body>
-                <Button variant="primary" onClick={() => handleCardDetails(id)}>See Details
-                </Button>
+
             </Card>
         </Col>
 

@@ -4,23 +4,22 @@ import "./Testimonial.css"
 
 const Testimonials = () => {
     return (
-        <div className="p-5 m-3">
-            <h1 className="mb-4">Testimonials</h1>
+        <div className=" m-3">
+            <h1 className="mb-4 fw-bolder p-5 "  >  What People Say About Us</h1>
 
             <div className="row ">
 
                 <div className=" col-sm-12 col-lg-6 mb-4">
-                    <Card className="card-hover">
-                        <Card.Header className="quote">Quote</Card.Header>
+                    <Card className="card-hover" >
+                        <Card.Header className="quote"> I give this company 5 stars</Card.Header>
                         <Card.Body>
                             <blockquote className="blockquote mb-0">
                                 <p>
                                      
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                                    erat a ante. 
+                                I highly recommend MSC. Their customer service is incomparable. I appreciate how helpful and kind they have been through this entire process. 
                                 </p>
                                 <footer className="blockquote-footer">
-                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                     Mr: <cite title="Source Title"> Tomas Smith</cite>
                                 </footer>
                             </blockquote>
                         </Card.Body>
@@ -32,12 +31,10 @@ const Testimonials = () => {
                         <Card.Body>
                             <blockquote className="blockquote mb-0">
                                 <p>
-                                    {' '}
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                                    erat a ante.{' '}
+                                I highly recommend MSC. Their customer service is incomparable. I appreciate how helpful and kind they have been through this entire process. 
                                 </p>
                                 <footer className="blockquote-footer">
-                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                Mr:  <cite title="Source Title">Michael James</cite>
                                 </footer>
                             </blockquote>
                         </Card.Body>
@@ -45,16 +42,15 @@ const Testimonials = () => {
                 </div>
                 <div className=" col-sm-12 col-lg-6 mb-4">
                     <Card className="card-hover">
-                        <Card.Header className="quote">Quote</Card.Header>
+                        <Card.Header className="quote">Highly recommend!</Card.Header>
                         <Card.Body>
                             <blockquote className="blockquote mb-0">
                                 <p>
                                     {' '}
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                                    erat a ante.{' '}
+                                    Supplies are always here before I need them. Very personable, receive calls to see what supplies I need. What customer service should be. Highly recommend!{' '}
                                 </p>
                                 <footer className="blockquote-footer">
-                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                Mr:  <cite title="Source Title"> Michael Richard</cite>
                                 </footer>
                             </blockquote>
                         </Card.Body>
@@ -65,10 +61,10 @@ const Testimonials = () => {
                         <Card.Header className="quote"> Thanks for Helping us!</Card.Header>
                         <Card.Body>
                             <blockquote className="blockquote mb-0">
-                                <p>They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.
+                                <p>I highly recommend MSC. Their customer service is incomparable. I appreciate how helpful and kind they have been through this entire process.  
                                 </p>
                                 <footer className="blockquote-footer">
-                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                     Mr: <cite title="Source Title">James</cite>
                                 </footer>
                             </blockquote>
                         </Card.Body>

@@ -6,8 +6,9 @@ import ServicesCard from './ServicesCard';
 const Services = () => {
     const { services } = ServicesApi()
     return (
-        <div className="container">
-            <Row xs={1} md={2} className="g-4">
+        <div className="container my-3"> 
+        <h1 className="fw-bolder">Our Services</h1>
+            <Row xs={1} md={2} lg={3} className="g-4">
                 {
                     services.map((service) => (<ServicesCard key={service.id} service={service}></ServicesCard>
                     ))}
