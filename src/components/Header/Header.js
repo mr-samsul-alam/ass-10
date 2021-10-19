@@ -2,9 +2,9 @@ import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import UseAuth from '../../Hooks/UseAuth';
- 
+
 const Header = () => {
-    const { user,logOut } = UseAuth()
+    const { user, logOut } = UseAuth()
     return (
         <>
             <Navbar sticky="top" bg="warning" variant="dark" collapseOnSelect expand="lg">

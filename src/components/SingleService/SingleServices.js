@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Card, Container } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import ServicesApi from '../../Hooks/ServicesApi';
 
@@ -10,7 +9,7 @@ const SingleServices = () => {
  
     return (
         <div className="container"> 
-                <div className="card mb-3" style={{ "max-width": "100%" }}>
+                <div className="card mb-3" style={{  mazWidth: "100%" }}>
                         <div className="row g-0">
                             <div className="col-md-4 ">
                                 <img src={clickedServices[0]?.img} className="img-fluid rounded-start p-3" alt="..." />
