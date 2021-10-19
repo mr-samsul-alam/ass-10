@@ -3,7 +3,7 @@ import React from 'react';
 const AboutCompany = () => {
     return (
         <div  >
-            <h1 className="fw-bolder my-5">Who We Are??</h1>
+            <h1 className="fw-bolder my-5">Who Are We??</h1>
             <div className="row pt-3">
                 <div className=" col-sm-12 col-md-6  col-lg-6">
                     <img className="images" src="https://image.freepik.com/free-vector/old-man-hospital-room_82574-2898.jpg" width="100%" alt=""></img>
