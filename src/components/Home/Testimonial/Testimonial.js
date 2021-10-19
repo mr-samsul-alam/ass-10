@@ -4,8 +4,8 @@ import "./Testimonial.css"
 
 const Testimonials = () => {
     return (
-        <div className=" m-3">
-            <h1 className="mb-4 fw-bolder p-5 "  >  What People Say About Us</h1>
+        <div className="p-5 m-3">
+            <h1 className="mb-4 fw-bolder p-5"  >  What People Say About Us</h1>
 
             <div className="row ">
 
@@ -16,7 +16,7 @@ const Testimonials = () => {
                             <blockquote className="blockquote mb-0">
                                 <p>
                                      
-                                I highly recommend MSC. Their customer service is incomparable. I appreciate how helpful and kind they have been through this entire process. 
+                                loving. God bless you all. Special thanks to the doctors for their effort and hard work.I highly recommend RDC.
                                 </p>
                                 <footer className="blockquote-footer">
                                      Mr: <cite title="Source Title"> Tomas Smith</cite>
@@ -31,7 +31,7 @@ const Testimonials = () => {
                         <Card.Body>
                             <blockquote className="blockquote mb-0">
                                 <p>
-                                I highly recommend MSC. Their customer service is incomparable. I appreciate how helpful and kind they have been through this entire process. 
+                                I highly recommend RDC. I appreciate how helpful and kind they have been through this entire process. 
                                 </p>
                                 <footer className="blockquote-footer">
                                 Mr:  <cite title="Source Title">Michael James</cite>
