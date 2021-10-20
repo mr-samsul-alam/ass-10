@@ -188,6 +188,9 @@ button.social-signin.google {
   background-position: center;
   border-radius: 0 2px 2px 0;
 }
+.d-name{
+  display: block ;
+}
 
 .or {
   position: absolute;

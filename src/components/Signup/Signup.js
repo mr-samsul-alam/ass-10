@@ -23,7 +23,7 @@ const Signup = () => {
         setPassword(e.target.value);
     }
     const handleRegister = () => {
-        registerByEmailPass(email, password, name) 
+        registerByEmailPass(email, password, name)
 
     }
 
@@ -44,11 +44,11 @@ const Signup = () => {
             <div>
                 <div id="login-box">
                     <div className="left">
-                        <h1>Sign up</h1> 
+                        <h1>Sign up</h1>
                         <input type="text" name="name" placeholder="Your Name" onChange={handleName} />
                         <input type="text" name="email" placeholder="E-mail" onChange={handleEmail} />
                         <input type="password" name="password" placeholder="Password" onChange={handlePass} />
-                        <input type="password" name="password2" placeholder="Retype password" />
+
                         {
                             error === text ? <span className="text-danger hidden">Give a new email</span> : <span className="text-white hidden" > Give a new email</span>
                         }

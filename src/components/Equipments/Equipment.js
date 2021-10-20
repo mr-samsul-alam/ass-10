@@ -8,10 +8,10 @@ const Equipment = (props) => {
                 _id %2 === 0 ? <div className="card mb-3" style={{ maxWidth: "100%" }}>
                     <div className="row g-0"> 
                         <div className="col-md-8 ">
-                            <div className="card-body">
+                            <div className="card-body p-5">
                                 <h3 className="card-title">{name}</h3>
                                 <p className="card-text">{description}</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                 
                             </div>
                         </div>
                         <div className="col-md-4  ">
@@ -26,10 +26,9 @@ const Equipment = (props) => {
                                 <img src={picture} className="img-fluid rounded-start p-3" alt="..." />
                             </div>
                             <div className="col-md-8 ">
-                                <div className="card-body">
+                                <div className="card-body p-5">
                                     <h3 className="card-title">{name}</h3>
-                                    <p className="card-text">{description}</p>
-                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                    <p className="card-text">{description}</p> 
                                 </div>
                             </div>
 

@@ -21,7 +21,7 @@ const Header = () => {
                             user.photoURL ? <div><img src={user.photoURL} className="rounded-circle" width="50px" alt="" /></div> : <div></div> 
                         }
                         {
-                             user.email ? <div><span className="text-peimary fw-bolder">{user.displayName}</span>  <Button onClick={logOut} className="text-white">Log Out</Button></div> : <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                             user.email ? <div><span className="text-peimary fw-bolder p-1 d-name">{user.displayName}</span>  <Button onClick={logOut} className="text-white">Log Out</Button></div> : <Nav.Link as={Link} to="/login">Login</Nav.Link>
                          }
                     </Navbar.Collapse>
                 </Container>
