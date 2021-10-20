@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 const DemoServicesCard = (props) => {
-    const { id, title, img } = props.service
+    const { id, title, img, mini_description } = props.service
     const history = useHistory()
     const handleCardDetails = (id) => {
         console.log(id);
@@ -13,7 +13,10 @@ const DemoServicesCard = (props) => {
             <Card className=" card-hover">
                 <Card.Img variant="top" src={img} className="  mx-auto p-2" height="300px" />
                 <Card.Body>
-                    <Card.Title>{title}</Card.Title>
+                    <Card.Title>{title}</Card.Title> 
+                    <Card.Text> 
+                    {mini_description}
+                    </Card.Text>
                     <Button variant="primary" onClick={() => handleCardDetails(id)}>See Details
                     </Button>
                 </Card.Body>

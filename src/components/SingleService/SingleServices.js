@@ -8,8 +8,8 @@ const SingleServices = () => {
     const clickedServices = services.filter(service => service?.id === parseFloat(id))
  
     return (
-        <div className="container"> 
-                <div className="card mb-3" style={{  mazWidth: "100%" }}>
+        <div className="container my-5"> 
+                <div className="card mb-3 " style={{  mazWidth: "100%" }}>
                         <div className="row g-0">
                             <div className="col-md-4">
                                 <img src={clickedServices[0]?.img} className="img-fluid rounded-start p-3" alt="..." />
@@ -18,8 +18,7 @@ const SingleServices = () => {
                                 <div className="card-body">
                                     <h3 className="card-title"> Name: {clickedServices[0]?.title}</h3>
                                     <h3 className="card-title">Price: {clickedServices[0]?.price} Tk</h3>
-                                    <p className="card-text">Details: {clickedServices[0]?.description}</p>
-                                   
+                                    <p className="card-text  p-3">Details: {clickedServices[0]?.description}</p> 
                                 </div>
                             </div> 
                         </div>

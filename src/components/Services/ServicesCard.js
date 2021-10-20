@@ -3,7 +3,7 @@ import { Button, Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 
 const ServicesCard = (props) => {
-    const {id, title, img, price } = props.service 
+    const {id, title, img, price,mini_description } = props.service 
     const history =useHistory()
     const handleCardDetails =(id)=>{
         console.log(id);
@@ -17,6 +17,9 @@ const ServicesCard = (props) => {
                     <Card.Body>
                         <Card.Title>{title}</Card.Title>
                         <Card.Text>Price: {price} Tk</Card.Text> 
+                        <Card.Text> 
+                    {mini_description}
+                    </Card.Text>
                         <Button onClick={()=>handleCardDetails(id)}>Details</Button>
                     </Card.Body>
                 </Card>

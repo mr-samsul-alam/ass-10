@@ -9,7 +9,7 @@ const Header = () => {
         <>
             <Navbar bg="warning" variant="dark" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand as={Link} to="/"><img src="/logo.jpg" alt="" width="50px" />    <span className="text-dark fw-bolder">Royel Dialogist</span></Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/"><img src="/logo.jpg" alt="" width="50px" />    <span className="text-dark fw-bolder">Royel Diagnostic</span></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>

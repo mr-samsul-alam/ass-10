@@ -1,5 +1,5 @@
 Hey there ....
-Welcome to our website... Here is It's link - https://royel-diagnostic-center.netlify.app/
+Welcome to Royel Diagnostic Center Here is It's link - https://royel-diagnostic-center.netlify.app/
 
 - Here first of all you will see our home page, where we added some of our services and our best doctors and also added some testimonials from our satisfied patients
 - In service section there is a service button, if you click on this button it will redirect you to our Log in Page
