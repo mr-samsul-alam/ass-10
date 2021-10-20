@@ -40,7 +40,7 @@ const text = 'auth/wrong-password'
                         <input type="password" name="password" placeholder="Password" onChange={handlePass} />
                          
                         {
-                             error === text ?<span className="text-danger">Wrong Password</span> : <span className="text-white" >Wrong Password</span>
+                             error === text ?<span className="text-danger hidden">Wrong Password</span> : <span className="text-white hidden" >Wrong Password</span>
                          }
                         <input type="submit" name="signup_submit" value="Log in" onClick={handleLogIn} />
                     </div>

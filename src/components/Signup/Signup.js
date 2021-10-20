@@ -45,7 +45,7 @@ const  Signup = () => {
                         <input type="password" name="password" placeholder="Password" onChange={handlePass} />
                         <input type="password" name="password2" placeholder="Retype password" />
                         {
-                             error === text ?<span className="text-danger">Give a new email</span> :  <span className="text-white" > Give a new email</span>
+                             error === text ?<span className="text-danger hidden">Give a new email</span> :  <span className="text-white hidden" > Give a new email</span>
                          }
                         <input type="submit" name="signup_submit" value="Sign me up" onClick={handleRegister} />
                          

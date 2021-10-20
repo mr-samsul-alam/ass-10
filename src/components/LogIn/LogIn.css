@@ -170,7 +170,9 @@ button.social-signin.google {
     border-radius: 2px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 40%);
 }
-
+.hidden{
+    display: block;
+}
 
 .left {
   display: flex;

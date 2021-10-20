@@ -19,6 +19,7 @@ import SingleServices from './components/SingleService/SingleServices';
 import Home from './components/Home/Home/Home';
 import PrivateRoute from './PrivaeRoute/PrivateRoute';
 import LogIn from './components/LogIn/LogIn';
+ 
 
 
 function App() {
