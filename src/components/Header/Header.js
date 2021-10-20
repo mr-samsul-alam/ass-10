@@ -16,13 +16,11 @@ const Header = () => {
                         <Nav.Link as={Link} to="/services">Services</Nav.Link>
                         <Nav.Link as={Link} to="/equipment"> Equipment</Nav.Link>
                         <Nav.Link as={Link} to="/about"> About</Nav.Link>
-                         
+
+
                         {
-                            user.photoURL ? <div><img src={user.photoURL} className="rounded-circle" width="50px" alt="" /></div> : <div></div> 
+                            user.email ? <div><img src={user.photoURL} className="rounded-circle" width="50px" alt="" /><span className="text-primary fw-bolder p-1 d-name">{user.displayName}</span><Button onClick={logOut} variant="outline-primary" className=" m-3 px-3   rounded-pill">Log Out </Button></div> : <Nav.Link as={Link} to="/login">Login</Nav.Link>
                         }
-                        {
-                             user.email ? <div><span className="text-peimary fw-bolder p-1 d-name">{user.displayName}</span><Button onClick={logOut}variant="outline-primary" className=" m-3 px-3   rounded-pill">Log Out </Button></div> : <Nav.Link as={Link} to="/login">Login</Nav.Link>
-                         }
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
